@@ -1,0 +1,107 @@
+body {
+    background-image: url('gym_girl.jpg');
+    background-size: cover;
+    font-family: "Permanent Marker", cursive;
+}
+
+.left {
+    /* border: 2px solid red; */
+    color: white;
+    float: left;
+    width: auto;
+    height: 90px;
+    /* padding: 10px 20px; */
+}
+
+.left i {
+    /* display: inline-block; */
+    font-size: 50px;
+    clear: left;
+    width: auto;
+    margin: 0px 32px;
+}
+
+.left span {
+    font-size: 18px;
+    margin: 0px 6px;
+}
+
+.middle {
+    /* border: 2px solid red; */
+    color: white;
+    width: 570px;
+    margin: 0px auto;
+    overflow: unset;
+}
+
+.middle ul li {
+    display: inline-block;
+    padding: 2px 19px;
+    font-size: 24px;
+    box-sizing: border-box;
+}
+.middle ul li:hover {
+    color: rgb(216, 217, 219);
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+.right {
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    
+    /* float: right; */
+    padding: 0px 10px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    font-family: "Permanent Marker", cursive;
+    font-size: 18px;
+    padding: 0px 10px;
+    
+}
+.btn:hover{
+    color: rgb(218, 210, 210);
+    cursor: pointer;
+}
+.details{
+    border: 2px solid rgb(255, 255, 255);
+    margin: 150px auto ;
+    width: 400px;
+    height: 380px;
+    
+    /* position: absolute; */
+    /* top: 400px; */
+}
+input{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 6px;
+    font-size: 27px;
+    font-family: "Permanent Marker", cursive;
+    color: rgb(255, 0, 0);
+}
+p{
+    color: white;
+    font-family: "Permanent Marker", cursive;
+    width: auto;
+    margin: 6px 28px;
+    font-size: 27px;
+}
+#btn{
+    font-size: 27px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 15px;
+    font-family: "Permanent Marker", cursive;
+    color: white;
+    display: block;
+    margin: auto;
+    margin-top: 17px;
+}

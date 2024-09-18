@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+main{
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 200px 250px 140px auto 94px;
+    grid-template-areas: 
+    "   head   head   head"
+    "   home   home   home"
+    "   f1   f2   f3 "
+    "   contact   contact   contact"
+    "   foot   foot   foot"
+    ;
+} 
+.header{
+    background-color: skyblue;
+    grid-area: head;
+}
+.homepage{
+    background-color: aquamarine;
+    grid-area: home;
+}
+.feature-1{
+    background-color: brown;
+    grid-area: f1;
+}
+.feature-2{
+    background-color: blue;
+    grid-area: f2;
+}
+.feature-3{
+    background-color: blueviolet;
+    grid-area: f3;
+}
+.contact{
+    background-color: bisque;
+    grid-area: contact;
+}
+.footer{
+    background-color: rgb(0, 0, 0);
+    grid-area: foot;
+}
